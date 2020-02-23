@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>abao</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://abao.ml/"/>
+  <updated>2020-02-23T12:10:15.292Z</updated>
+  <id>https://abao.ml/</id>
+  
+  <author>
+    <name>abao</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>v2ray安装脚本</title>
+    <link href="https://abao.ml/posts/2.html"/>
+    <id>https://abao.ml/posts/2.html</id>
+    <published>2020-02-23T10:33:00.000Z</published>
+    <updated>2020-02-23T12:10:15.292Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="安装前准备"><a href="#安装前准备" class="headerlink" title="安装前准备"></a>安装前准备</h2><blockquote><p>更新系统 安装 curl、wget</p></blockquote><h2 id="Ubuntu命令"><a href="#Ubuntu命令" class="headerlink" title="Ubuntu命令"></a>Ubuntu命令</h2><pre class=" language-sh"><code class="language-sh">apt-get update -y && apt-get install curl -y && apt-get install wget</code></pre><h2 id="Centos命令"><a href="#Centos命令" class="headerlink" title="Centos命令"></a>Centos命令</h2><pre class=" language-sh"><code class="language-sh">yum update -y && yum install curl -y && yum -y install wget</code></pre><h1 id="跑脚本"><a href="#跑脚本" class="headerlink" title="跑脚本"></a>跑脚本</h1><blockquote><p>Vmess+websocket+TLS+Nginx+Website</p></blockquote><pre class=" language-sh"><code class="language-sh">wget -N --no-check-certificate -q -O install.sh "https://raw.githubusercontent.com/wulabing/V2Ray_ws-tls_bash_onekey/master/install.sh" && chmod +x install.sh && bash install.sh</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;安装前准备&quot;&gt;&lt;a href=&quot;#安装前准备&quot; class=&quot;headerlink&quot; title=&quot;安装前准备&quot;&gt;&lt;/a&gt;安装前准备&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;更新系统 安装 curl、wget&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;U
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World！</title>
+    <link href="https://abao.ml/posts/1.html"/>
+    <id>https://abao.ml/posts/1.html</id>
+    <published>2020-02-22T09:00:00.000Z</published>
+    <updated>2020-02-23T07:31:55.926Z</updated>
+    
+    <content type="html"><![CDATA[<pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">HelloWorld</span><span class="token punctuation">{</span>    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span>        <span class="token punctuation">{</span>       System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span> <span class="token string">"Hello, World!"</span> <span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span></code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;pre class=&quot; language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
